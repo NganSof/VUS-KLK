@@ -1,0 +1,163 @@
+ /* * dùng để gọi các thuộc tính  */
+*{
+    /* border: 0px;
+    margin: 0px;
+    padding: 0px; */
+    box-sizing: border-box;
+}
+/* box-sizing: border-box hỗ trợ giữ nguyên kích thước width , chỉ dùng cho xét padding */
+/* Xóa biểu tượng của danh sách */
+.Header ul{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    list-style: none; 
+    background-color:#0E0E0E;
+}
+/* Xóa dấu gạch dưới của thẻ a */
+.Header a{
+    color: white ;
+    text-decoration: none;
+}
+/* chuyển đổi thuộc tính từ block sang inline */
+.Header li{
+    display: inline;
+    padding-right: 3%;    
+}
+.Header{
+    background-color: #EAE7E2;
+}
+.Header img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/* margin: 10 20 30 (theo thứ tự top-left,right-bottom) */
+/* với những hình lớn như banner nên chọn background-image  */
+.Carousel {
+    background-image: url(../img/slider_1.jpg);
+    /* gọi thẻ con của thẻ con ../ */
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* hình kích thước không dùng % để chỉnh cao , dài */
+/* background-repeat: no-repeat tránh lặp lại mặc định khi hình nhỏ hơn kích thước trang
+background-position: center trình tự laod hình từ chính giữa
+background-size: cover có giá trị chỉnh kích thước đều cho các góc */
+.Intro b{
+    color: red;
+}
+.left{
+    float: left;
+    width: 50%;
+    padding-right: 10%;
+    /* background-position: center;
+    background-size: cover; */
+    padding: 0 4%;
+}
+.left img:nth-child(3){
+    margin-top: 5%;
+}
+.right img:nth-child(1){
+    margin-bottom: 2%;
+}
+h2{
+    text-align: center;
+    font-size: 400%;
+}
+.Product__content{
+    float: left;
+    width: 25%;
+    padding:0 20px ;
+}
+/* width (1 thẻ) = content+padding+border */
+/* float dùng cho trực tiếp chung 1 hàng, chọn kích thước cho các thẻ khi sử dụng float  */
+.clear{
+    clear: both;
+}
+/* dùng để xóa hiệu ứng của float cho các thẻ sau */
+.Product__content img{
+    width: 100%;
+}
+/* kích thước % lấy từ thẻ gần nhất */
+.Banner{
+    background-image: url(../img/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin: inherit;
+    position: relative;
+}
+.Banner__circle{
+    width: 200px;
+    height: 200px;
+    /* background-color: red ; */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 50% ;
+    /* rgba, trong đó a là làm mờ hình */
+    background-color: rgba(225, 58, 58, 0.905);
+    position: absolute;
+    left:25%;
+    bottom: 58%;
+}
+/* opacity thuộc tính làm mờ có thang từ 0 đến 1, 0 là mờ nhất, nhược điểm là khiến mọi thứ trong khuôn mờ theo */
+/* cách gọi thẻ con không đặt tên, bằng 2 cách chỉ áp dụng cho cùng 1 loại thẻ */
+/* .Banner__circle p:first-child{
+    gọi thẻ con đầu tiên
+}
+.Banner__circle p:nth-child(3){
+    gọi thẻ con theo thứ tự mong muốn
+}
+.Banner__circle p:last-child{
+    gọi thẻ cuối cùng
+} */
+.Banner__circle p:nth-of-type(2){
+    font-size: 2% ;
+}
+.Product__content button{
+    width: 20%;
+    border-radius: 5%;
+    background-color: rgba(240, 40, 40, 0.993);
+    color: black;
+}
+.Footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.Footer h2{
+    font-size: 30px;
+    padding-top: 5px;
+}
+.Footer p{
+    padding: 10px 0;
+}
+.icon{
+    float: left;
+    width: 33.33%;
+    background-color: rgb(247, 240, 239);
+    text-align: center;
+    <i class="fa fa-pen-nib"></i> font-weight: 900;
+    font-size: larger;
+    padding: 2% 4%;
+    box-sizing: border-box;
+}
+.icon p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.fa.fa-home{
+    font-size: 350%;
+    padding: 2%;
+}
+.fa.fa-paint-brush{
+    font-size: 350%;
+    padding: 2%;
+}
+.fa.fa-user{
+    font-size: 350%;
+    padding: 2%;
+}

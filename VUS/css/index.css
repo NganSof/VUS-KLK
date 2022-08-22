@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.head img:nth-child(2){
+    padding-left: 50%;
+}
+.head img{
+    padding: 0;
+}
+.head{
+    margin: 2% 0;
+}
+.carousel ul{
+    list-style: none;
+}
+.carousel{
+    border: 2px ridge;
+    margin: auto;
+}
+.carousel ul li{
+    display: inline;
+    padding: 1% 0.8%;
+}
+.banner{
+    margin: 2% 0;
+    background-image: url(../images/slider_1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+h2{
+    margin-top: 4%;
+    text-align: center;
+}
+img{
+    padding: 0 28%;
+}
+.intro p{
+    text-align: center;
+    font-size: 90%;
+    color:#83858ad9;
+}
+.title img{
+    margin: 1% 0;
+    width: 40%;
+    padding: 0 30%;
+}
+.chill h4{
+    padding-left: 5%;
+    color: red;
+}
+.chill p{
+    padding-left: 5%;
+    font-size: 70%;
+    color:#83858ad9;
+}
+.title__chill{
+    display: flex;
+    position: relative;
+}
+.chill{
+    width: 25%;
+}
+.chill img{
+    width: 80%;
+    padding: 0% 5%;
+}
+h3{
+    color: white;
+    padding-left: 1%;
+    position: absolute;
+    bottom: 0%;
+}
+.Sevices{
+    display: flex;
+    margin-top: 1%;
+}
+.Sevices__1{
+    background-image: url(../images/tin_tuc_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 580px;
+    height: 380px;
+    position: relative;
+    /* border-bottom: 5px solid brown; */
+}
+/* .Sevices__1 .border{
+    width: 39%;
+    margin-left: -39%;
+    margin-bottom: 5%;
+} */
+.Sevices__2{
+    width: 50%; 
+}
+.khoi{
+    float: left;
+    margin: 0% 5%;
+    position: relative;
+}
+.border{
+    float: left;  
+    width: 38%;
+    margin-top: 26%;
+    margin-left: -41%;
+    margin-right: 5%;
+    border-bottom: 8px solid brown;
+}
+.Sevices__2 img{
+    width: 280px;
+    height: 180px;
+    margin: 2% 4%;
+    padding: 0%;
+    
+}
+.Sevices__2 h4{
+    position: absolute;
+    background-color: rgb(27,24,24,32%); 
+    text-align: left;
+    height: 25%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    padding-left: 1%;
+    padding-top: 2%;
+    font-size: 70%;
+    color: white;
+    bottom: 0%;
+}
+/* .Sevices__2 hr{
+    margin-left: 6%;
+    height: 5px;
+    width: 38%;
+    background-color: red;
+}
+.hr1{
+    display: block;
+    float: right;
+    height: 1%;
+    margin-top: -1.5%;
+    margin-right: 9%;
+    margin-left: 2%;
+}
+.Sevices__1 hr{
+    margin-top: 67%;
+    height: 5px;
+    width: 100%;
+    background-color: red;
+} */
+.contact{
+    margin-top: 3%;
+    display: flex;
+    background-color: #B31C25;
+    padding: 2%;
+}
+.contact__1{
+    float: left;
+    width: 50%;
+    padding-right: 50%;
+}
+.contact__2{
+    width: 50%;
+    padding-left: 0;
+    text-align: left;
+    font-family: 'Times New Roman' ;
+    font-size: 80%;
+    letter-spacing: 2px;
+    color: white;
+}
